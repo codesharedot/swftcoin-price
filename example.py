@@ -7,8 +7,8 @@ c = CurrencyRates()
 rate = c.get_rate('USD', 'EUR') 
 print(rate)
 
-dex_api_url = 'https://api.coinmarketcap.com/v1/ticker/dex/'
-response = requests.get(dex_api_url)
+swftcoin_api_url = 'https://api.coinmarketcap.com/v1/ticker/swftcoin/'
+response = requests.get(swftcoin_api_url)
 response_json = response.json()
 print(response_json)
 
